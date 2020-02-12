@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: 'Lato', serif;
@@ -6,17 +10,38 @@ body {
 }
 
 header {
-  border-bottom: 2px solid #000;
+  color: #FFF;
+  background-image: linear-gradient(to right, #FF6DC9, #68D2FF);
+  padding: 25px;
 }
 
 h1 {
   font-family: 'MedievalSharp', cursive;
   font-size: 40px;
   font-weight: 400;
+  margin-bottom: 0;
+  padding-top: 0;
+}
+
+header p {
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+main {
+  color: #B323FA;
+  height: 100%;
+  padding: 20px;
 }
 
 select {
-  margin-top: 30px;
+  margin: 15px;
+}
+
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
 }
 
 .image-container {
@@ -24,5 +49,8 @@ select {
 }
 
 .image-container img {
+  border: 3px solid #B323FA;
+  height: 200px;
   width: 200px;
+  margin: 5px;
 }

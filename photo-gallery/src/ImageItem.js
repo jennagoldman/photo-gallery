@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import imagesData from './new-data';
 
 export default class ImageItem extends Component {
     render() {
