@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import images from './new-data';
 import ImageItem from './ImageItem';
 
 
 export default class ImageList extends Component {
     render() {
-        const imageItems = images.map((image, i) => <ImageItem img={image} key={i} />);
-            return (
-                <ul className="image-list-container">
-                    {imageItems}
-                </ul>
+        return (
+            <ul className="image-list-container">
+                {this.props.image.map((image, i) => <ImageItem img={image} key={i} keyword={image.keyword} />)};
+            </ul>
         )
     }
 }
