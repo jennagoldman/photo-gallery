@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageItem renders correctly 1`] = `
+<li
+  className="image-container"
+>
+  <img />
+</li>
+`;
