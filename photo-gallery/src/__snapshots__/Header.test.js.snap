@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<header>
+  <h1>
+    Great Horned Creatures
+  </h1>
+  <p>
+    A visual gallery of some fantastic beasts.
+  </p>
+</header>
+`;
